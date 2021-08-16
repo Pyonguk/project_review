@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    background: #202020;
+    flex-direction: row;
+    position: fixed;
+}
+
+header .start li, header .middle li, header .end li {
+    list-style: none;
+}
+
+header .start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 169px;
+}
+
+header .start li .toggle {
+    margin: 0;
+}
+
+header .start li #toggle_btn {
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    background: #202020;
+}
+
+header .start li .toggle ion-icon {
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    background: none;
+    margin: 0;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+
+header .start li .yb_logo {
+    height: 20px;
+    width: 90px;
+    padding: 18px 14px 18px 16px;
+    flex: none;
+}
+
+header .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 1 728px;
+    min-width: 0px;
+}
+
+header .middle li .search_bar {
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    color: #121212;
+}
+
+
+
+header .end {
+    min-width: 225px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header .end li {
+    margin: 0, 8, 0, 0;
+    padding: 8px;
+    border: 0;
+    background: transparent;
+}
+
+.end .cam-button, .end .app-button, .end .not-button, .end .finger-button {
+    color: white;
+    display: inline-block;
+    outline: none;
+    background: none;
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#search-form {
+    height: 32px;
+    width: 640px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#search-form .search_bar {
+    position: relative;
+    align-items: center;
+    border: 1px solid #2d2d2d;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    box-shadow: #121212 0 1px 2px;
+    padding: 2px 6px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 653px;
+    margin-left: 0px;
+    background-color: #121212;
+}
+
+#search-form .typing {
+    
+    width: 566px;
+    height: 26px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin-left: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    outline-width: 0;
+    font-size: 16px;
+    background-color: #121212;
+    color: #6a6a6a;
+}
+
+#search {
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    width: 100%;
+}
+
+#search-form button {
+    width: 51px;
+    height: 28;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    cursor: pointer;
+    border: 1px solid #313131;
+    background-color: #313131;
+    border-radius: 0 2px 2px 0;
+    margin: 0;
+}
+
+#search-form .search-icon {
+    opacity: 0.6;
+    width: 20px;
+    height: 20px;
+    color: #6a6a6a;
+}
+
+#columns {
+    background-color: #181818;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    top: 56px;
+    justify-content: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    display: grid;
+    grid-template: auto 1fr / 2fr 1fr;
+    height: 919px;
+}
+
+#columns .primary {
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+#columns .primary iframe {
+    position: relative;
+    height: 720px;
+    width: 1280px;
+}
+
+.end ion-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.end li {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+main {
+    margin: 0 2.4rem 3rem 0;
+    display: block;
+}
+
+aside {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+#columns .secondary {
+    
+}

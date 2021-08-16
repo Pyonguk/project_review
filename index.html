@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="icons/youtube_red.png">
+        <title>YouTube Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <ul class="start">
+                <li>
+                    <div class="toggle">
+                        <button id="toggle_btn"><ion-icon name="menu" class="toggle_icon"></buttonion-icon></button>
+                    </div>
+                </li>
+                <li class = "start_logo" style="
+                height: 56px;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                padding-left: 16px;
+                padding-right: 14px;">
+                    <a href="http://www.youtube.com" class="yb-logo">
+                        <img src="Icons/yt_logo_rgb_dark.png" alt="YouTube"  height="20" width="90">
+                    </a>
+                </li>
+            </ul>
+            <ul class="middle">
+                <li id="search">
+                    <form id="search-form">
+                        <div class="search_bar">
+                            <input type="text" placeholder="Search" class="typing">
+                        </div>
+                        <button>
+                            <ion-icon name="search" class="search-icon"></ion-icon>
+                        </button>
+                    </form>
+                </li>
+                <li>
+                    <buttom>
+                        <ion-icon name="mic" style="
+                        width: 24px;
+                        height: 24px;
+                        vertical-align: middle;
+                        color: inherit;
+                        outline: none;
+                        background: none;
+                        margin: 0;
+                        border: none;
+                        padding: 0;
+                        line-height: 0;
+                        cursor: pointer;
+                        cursor: pointer;
+                        color: white;"></ion-icon>
+                    </buttom>
+                </li>
+            </ul>
+            <ul class="end">
+                <li class="cam">
+                    <button class="cam-button"><ion-icon name="videocam"></ion-icon></button>
+                </li>
+                <li>
+                    <button class="app-button"><ion-icon name="apps"></ion-icon></button>
+                </li>
+                <li>
+                    <button class="not-button"><ion-icon name="notifications"></ion-icon></button>
+                </li>
+                <li>
+                    <button class="finger-button"><ion-icon name="finger-print"></ion-icon></button>
+                </li>
+            </ul>
+        </header>
+
+        <div id="columns">
+            <main class="primary">
+                <iframe src="https://www.youtube.com/embed/ChuSddfohxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </main>
+            <aside class="secondary">
+                
+            </aside>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
